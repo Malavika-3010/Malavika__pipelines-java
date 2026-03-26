@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: $(imageName)
+  vmImage: 'ubuntu-latest'
 
 strategy:
   matrix:
